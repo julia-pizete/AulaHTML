@@ -5,83 +5,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        
+        body
+        {
+            margin: 0;
+            padding: 0;
+        }
        
         .titulo
         {
             color: blueviolet;
             text-align: center;
-            background-color: rgba(256,256,256);
+            background-color: rgb(255,255,255);
             font-size: 40px;
-            padding: 30px;
-            margin: 40px;
+            padding: 40px;
+           
         }
         
-        .p
+        .classe2
         {
-            border: 2px solid black;
+            text-align: center;
+            font-size: 16px;
             margin:40px;
             
         }
-        .interacao
+
+        .caixa
         {
-            background-color: rgba(57,29,184,0.642);
+           border: 1px solid;
+           margin: 40px;
+           font-size: 20px;
+        }
+
+        h2
+        {
+            margin: 40px;
+        }
+
+        .interaco
+        {
+            background-color: blue;
             color: white;
             margin: 40px;
             padding: 10px;
         }
+
         .lista
         {
             border: 1px solid black;
             padding: 5px;
             margin: 40px;
         }
+
         table, tr,th,td
         {
             border: 1px solid black;
             border-collapse: collapse;
             margin: 40px;
         }
-        th{
-            background-color: rgb(34,71,71);
 
+        th
+        {
+            background-color: rgb(34,71,71);
         }
+        
         .etec
         {
             color: gray;
             text-align: center;
             margin: 40px;
         }
-        .h1
-        {
-            font-size: 16px;
-            color: white;
-            margin: 40px;
-        }
-        h2{
-            margin: 40px;
-        }
+       
     </style>
 </head>
 <body>
     
     
     <p class="titulo"> Página de exercicios de CSS
-   <br><a href="#" class="h1">Inicio</a>
-   <a href="#" class="h1">sobre</a>
-   <a href="#" class="h1">contato</a>
+   <br><a href="#" class="classe2">Inicio</a>
+   <a href="#" class="classe2">sobre</a>
+   <a href="#" class="classe2">contato</a>
 </p>
    
 
    
-    <h2>1.paragrafos e cores</h2>
-    <p class="p">este é um paragrafo simples para aplicar cor, margem, padding e outras propriedades de CSS</p>
-    <p class="p">você pode aplicar diferentes fontes , tamanhos, cores e espaçamentos aqui</p>
+    <h2>1. Paragrafos e cores</h2>
+    <p class="caixa">este é um paragrafo simples para aplicar cor, margem, padding e outras propriedades de CSS</p>
+    <p class="caixa">você pode aplicar diferentes fontes , tamanhos, cores e espaçamentos aqui</p>
 
-    <h2>2.botoes de interacao</h2>
-    <ul class="lista">
-    <li>html</li>
-    <li>CSS</li>
-    <li>javascript</li></ul>
+    <h2>2.Botoes de interacao</h2>
+    <a href="#" class="interacao">Clique aqui</a>
+    
 
     <h2>3.Lista de itens</h2>
     <ul class="lista">
@@ -102,15 +116,18 @@
             <td>João</td>
             <td>25</td>
             <td>São Paulo</td>
+            </tr>
 
             <tr>
                 <td>Ana</td>
                 <td>30</td>
                 <td>Rio de Janeiro</td>
             </tr>
-        </tr>
+        
     </table>
-    <p class="etec">ETEC Francisco Garcia</p>
+</ul>
+<p class="etec">ETEC Francisco Garcia</p>
+    
     
 
 </body>
